@@ -1,0 +1,52 @@
+@media print {
+  .theme-menu {
+    display: none !important;
+  }
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Ubuntu Light'), local('Ubuntu-Light'), url('../fonts/ubuntu-light.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url('../fonts/ubuntu-medium.woff') format('woff');
+}
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu'), url('../fonts/ubuntu-normal.woff') format('woff');
+}
+
+img {
+  text-align:left;
+}
+
+section.gekko {
+  background:url('../images/gekko.png') no-repeat bottom right !important;
+}
+
+section.gekko h1 {
+  text-align:left;
+}
+
+section.iphone {
+  background:url('../images/iphone.jpg') no-repeat bottom right !important;
+}
+
+section.bail {
+  background:url('../images/news.jpg') no-repeat bottom right !important;
+}
+
+section.bullbear {
+  background:url('../images/bullbear.jpg') no-repeat bottom right !important;
+}
+
+section.hedging {
+  background:url('../images/hedging.jpg') no-repeat bottom right !important;
+}
